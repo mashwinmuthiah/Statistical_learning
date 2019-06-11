@@ -1,0 +1,29 @@
+x <- c(1,2,3,4,5)
+y = c(2,3,4,5,6)
+?c
+length(x)
+length(y)
+x+y
+ls()
+rm(x)
+ls()
+rm(list = ls())
+?matrix
+x = matrix(data = c(1,2,3,4,5,6),nrow = 2,ncol = 3)
+x
+sqrt(x)
+x <- c(1,2,3,4,5)
+y <-c(2,3,4,5,7)
+cor(x,y)
+
+q <- rnorm(10000)
+mean(q)
+sd(q)
+ls()
+rm(q)
+q = rnorm(10,mean =0 ,sd=1)
+mean(q)
+sd(q)
+
+var(q)
+plot(x,y,xlab = "This is the X-Axis",ylab = "This is the  axis")
